@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;300;400&family=Poppins:ital,wght@0,300;0,400;1,300&family=Roboto+Slab:wght@100;200;300;400;500&family=Rubik+Moonrocks&family=Smooch&display=swap');
+
+@import url('../norse/Norse.otf');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins' sans-serif;
+  
     
 }
 /* body{
@@ -42,13 +46,14 @@
 .img-text{
     position: absolute;
     /* background-color: blue; */
+    font-family: 'Norse'; 
     bottom: 80%;
-    left: 10em;
+    left: 4em;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     color: white;
-    font-size: 20px;
+    font-size: 60px;
     /* height: 100px; */
 
 }
